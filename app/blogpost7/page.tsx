@@ -6,7 +6,7 @@ const CompareJavaAndJavaScript = () => {
     <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-6">
       <h1 className="text-pink-400">So sánh Java và JavaScript</h1>
       <img src="Java vs JavaScript.jpg" alt="Java - Lập trình hướng đối tượng" className="w-3/4 h-auto rounded-lg mx-auto my-4" />
-      <p>Mặc dù cùng mang tên "Java", Java và JavaScript là hai ngôn ngữ lập trình hoàn toàn khác nhau, được thiết kế với mục đích và ứng dụng khác biệt.</p>
+      <p>Mặc dù cùng mang tên &quot;Java&quot;, Java và JavaScript là hai ngôn ngữ lập trình hoàn toàn khác nhau, được thiết kế với mục đích và ứng dụng khác biệt.</p>
       <p>Điểm giống nhau:</p>
       <p className="pl-10">Cú pháp dựa trên C/C++</p>
       <p className="pl-10">Hỗ trợ lập trình hướng đối tượng</p>

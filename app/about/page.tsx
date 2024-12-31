@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PersonalInfo: React.FC = () => {
@@ -58,9 +59,9 @@ const PersonalInfo: React.FC = () => {
       </div>
 
       <div className="back-link text-center mt-5">
-        <a href="/" className="text-pink-400 font-bold hover:underline">
-          Quay lại Trang chủ
-        </a>
+        <Link href="/blog" className="text-pink-400 font-bold">
+          Quay lại Trang Blog
+        </Link>
       </div>
     </div>
   );

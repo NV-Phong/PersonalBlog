@@ -11,7 +11,7 @@ const JavaIntroduction: React.FC = () => {
                     className="w-full rounded-lg mb-6"
                 />
                 <p className="text-gray-700 leading-relaxed mb-4">
-                    Java là một ngôn ngữ lập trình phổ biến và mạnh mẽ, được phát triển bởi Sun Microsystems vào năm 1995 và hiện nay được quản lý bởi Oracle Corporation. Java nổi bật với phương châm "Viết một lần, chạy mọi nơi" (Write Once, Run Anywhere - WORA), cho phép các ứng dụng được viết bằng Java có thể chạy trên bất kỳ nền tảng nào có máy ảo Java (Java Virtual Machine - JVM).
+                    Java là một ngôn ngữ lập trình phổ biến và mạnh mẽ, được phát triển bởi Sun Microsystems vào năm 1995 và hiện nay được quản lý bởi Oracle Corporation. Java nổi bật với phương châm &quot;Viết một lần, chạy mọi nơi&quot; (Write Once, Run Anywhere - WORA), cho phép các ứng dụng được viết bằng Java có thể chạy trên bất kỳ nền tảng nào có máy ảo Java (Java Virtual Machine - JVM).
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                     Java được thiết kế để dễ học, dễ sử dụng và mạnh mẽ, phù hợp với nhiều loại dự án, từ ứng dụng máy tính, web, di động đến hệ thống nhúng. Ngôn ngữ này hỗ trợ lập trình hướng đối tượng (Object-Oriented Programming - OOP), giúp các lập trình viên phát triển mã nguồn có tổ chức, tái sử dụng cao và dễ bảo trì.

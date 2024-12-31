@@ -23,9 +23,9 @@ const JavaOOP: React.FC = () => {
                 />
                 <p className="text-lg font-semibold mb-4">Các nguyên lý cơ bản của OOP</p>
                 <p className="mb-4">_ Lớp (Class): Lớp là một bản thiết kế hoặc khuôn mẫu để tạo ra các đối tượng. Lớp xác định các thuộc tính (data members) và phương thức (methods) mà đối tượng sẽ có.</p>
-                <p className="pl-10 mb-4">Ví dụ: Một lớp "Car" có thể có các thuộc tính như "color" (màu sắc) và "model" (mẫu xe), cùng các phương thức như "drive()" và "stop()".</p>
+                <p className="pl-10 mb-4">Ví dụ: Một lớp &quot;Car&quot; có thể có các thuộc tính như &quot;color&quot; (màu sắc) và &quot;model&quot; (mẫu xe), cùng các phương thức như &quot;drive()&quot; và &quot;stop()&quot;.</p>
                 <p className="mb-4">_ Đối tượng (Object): Đối tượng là một thể hiện cụ thể của lớp. Mỗi đối tượng có dữ liệu riêng và có thể thực hiện các hành vi do lớp định nghĩa.</p>
-                <p className="pl-10 mb-4">Ví dụ: Một đối tượng của lớp "Car" có thể là một chiếc xe màu đỏ với mẫu xe "Toyota Camry".</p>
+                <p className="pl-10 mb-4">Ví dụ: Một đối tượng của lớp &quot;Car&quot; có thể là một chiếc xe màu đỏ với mẫu xe &quot;Toyota Camry&quot;.</p>
                 <p className="mb-4">_ Tính đóng gói (Encapsulation): Tính đóng gói cho phép ẩn thông tin bên trong một lớp, chỉ cung cấp các phương thức công khai để tương tác với dữ liệu. Điều này giúp bảo vệ dữ liệu và giảm thiểu sự can thiệp không mong muốn.</p>
                 <p className="pl-10 mb-4">Ví dụ: Các thuộc tính trong lớp có thể được định nghĩa là private và chỉ có thể truy cập thông qua các phương thức public (getter và setter).</p>
                 <img
@@ -34,21 +34,21 @@ const JavaOOP: React.FC = () => {
                     className="w-1/2 mx-auto rounded-lg mb-6"
                 />
                 <p className="mb-4">_ Kế thừa (Inheritance): Kế thừa cho phép một lớp kế thừa các thuộc tính và phương thức từ một lớp khác, giúp tái sử dụng mã nguồn và mở rộng tính năng một cách hiệu quả.</p>
-                <p className="pl-10 mb-4">Ví dụ: Lớp "Dog" có thể kế thừa từ lớp "Animal", từ đó sử dụng các phương thức của "Animal" và thêm các phương thức riêng của "Dog".</p>
+                <p className="pl-10 mb-4">Ví dụ: Lớp &quot;Dog&quot; có thể kế thừa từ lớp &quot;Animal&quot;, từ đó sử dụng các phương thức của &quot;Animal&quot; và thêm các phương thức riêng của &quot;Dog&quot;.</p>
                 <img
                     src="0_5bscj-Hxw0AKkrzj.png"
                     alt="opp"
                     className="w-1/2 mx-auto rounded-lg mb-6"
                 />
                 <p className="mb-4">_ Đa hình (Polymorphism): Đa hình cho phép một phương thức có thể có nhiều hình thức khác nhau. Phương thức có thể được ghi đè trong lớp con, giúp thực hiện hành vi khác nhau tùy theo loại đối tượng.</p>
-                <p className="pl-10 mb-4">Ví dụ: Phương thức "speak()" có thể được ghi đè trong các lớp con như "Dog" và "Cat", nơi mỗi loài sẽ có âm thanh riêng khi "speak()".</p>
+                <p className="pl-10 mb-4">Ví dụ: Phương thức &quot;speak()&quot; có thể được ghi đè trong các lớp con như &quot;Dog&quot; và &quot;Cat&quot;, nơi mỗi loài sẽ có âm thanh riêng khi &quot;speak()&quot;.</p>
                 <img
                     src="original.png"
                     alt="opp"
                     className="w-1/2 mx-auto rounded-lg mb-6"
                 />
                 <p className="mb-4">_ Trừu tượng (Abstraction): Tính trừu tượng cho phép ẩn đi các chi tiết phức tạp và chỉ hiển thị các tính năng cần thiết của đối tượng. Điều này giúp người lập trình tập trung vào các chức năng quan trọng mà không cần quan tâm đến cách thức triển khai bên trong. Tính trừu tượng có thể được thực hiện thông qua các lớp trừu tượng (abstract classes) hoặc giao diện (interfaces).</p>
-                <p className="pl-10 mb-4">Ví dụ: Lớp trừu tượng "Shape" có thể định nghĩa một phương thức trừu tượng "draw()", nhưng không chỉ rõ cách thức vẽ. Các lớp con như "Circle" và "Rectangle" sẽ triển khai chi tiết cách thức vẽ của mình.</p>
+                <p className="pl-10 mb-4">Ví dụ: Lớp trừu tượng &quot;Shape&quot; có thể định nghĩa một phương thức trừu tượng &quot;draw()&quot;, nhưng không chỉ rõ cách thức vẽ. Các lớp con như &quot;Circle&quot; và &quot;Rectangle&quot; sẽ triển khai chi tiết cách thức vẽ của mình.</p>
                 <img
                     src="java-abstract-classes.webp"
                     alt="opp"
